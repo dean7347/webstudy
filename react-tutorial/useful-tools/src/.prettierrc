@@ -1,0 +1,8 @@
+
+{
+    //객체, 배열에 뒤에 콤마 넣는 기능
+    "trailingComma": "all", //es5지원정도로 혹은 all 등
+    "tabWidth":  2, //들여쓰기
+    "semi": true, //새미콜론
+    "singleQuote": true //' " 구분
+}

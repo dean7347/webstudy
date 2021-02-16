@@ -3,13 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import * as Sentry from "@sentry/react";
-Sentry.init({
-  dsn: "https://972a960d25d24a27a37e4eaf3548a1cf@o525396.ingest.sentry.io/5639352",
-  
 
- 
-});
 ReactDOM.render(
   <React.StrictMode>
     <App />
