@@ -31,9 +31,15 @@ function App() {
       </div>
 
       <div className="buttons">
-        <Button size="large" fullWidth={true}>BUTTON</Button>
+        <Button size="large" fullWidth={true} >BUTTON</Button>
         <Button color="gray" fullWidth={true}>BUTTON</Button>
-        <Button size="small" color="pink" fullWidth={true}>BUTTON</Button>
+        <Button size="small" color="pink" fullWidth={true} className="cutomized-button" onClick={()=>{
+          console.log('click');
+        }}
+        onMouseMove={()=>{
+          console.log('mouseMove');
+        }}
+        >BUTTON</Button>
       </div>
     </div>
   )
