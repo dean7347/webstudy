@@ -1,10 +1,7 @@
-import Recat,{Component} from 'react';
+import React from "react";
 
-class sample extends Component{
-    render()
-    {
-        return <div/>
-    }
+function sample() {
+  return <div>Hello React!</div>;
 }
 
 export default sample;
